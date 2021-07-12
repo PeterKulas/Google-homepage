@@ -1,0 +1,104 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    height: 70%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+
+    width: 30rem;
+    height: 2.5rem;   
+
+    color: red;
+
+    border: 1px solid rgb(189, 205, 209);
+    border-radius: 2.5rem;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+}
+
+form:active,
+form:hover {
+    border: 2px ridge rgba(158, 168, 170, 0.5);
+    border-radius: 2px solid;
+}
+
+.search {
+    margin-left: 1rem
+}
+
+.keyboard {
+    margin-left: 25rem
+}
+
+.keyboard:hover,
+.keyboard:active {
+    background-color: rgb(227, 234, 236);
+    cursor: pointer;
+}
+
+
+.protection:hover,
+.protection:active {
+
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.conditions:hover,
+.conditions:active {
+
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.settings:hover,
+.settings:active {
+
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.center-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 20rem;
+    height: 4rem;
+    margin: auto;
+}
+
+main button {
+    width: 8rem;
+    height: 2.25rem;
+
+    color: black;
+    background-color: #f8f9fa;
+
+    border-radius: 0.25rem;
+    border: 1px solid #dadce0;
+
+    font-family: sans-serif;
+}

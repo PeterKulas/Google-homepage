@@ -1,0 +1,44 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color:#f3f3f3;
+    height: 15%;
+}
+
+.up {
+    height: 3.5rem;
+
+    font-size: 100%;
+    font-family: arial,sans-serif;
+
+    padding-top: 1rem;   
+    padding-left: 1rem;   
+
+    color: #6a6e72;;
+}
+
+.down ul{
+    display: flex;
+    flex-direction: row;
+
+    font-size: 95%;
+    font-family: arial,sans-serif;
+
+    border-top: 1px solid #ced1d6;
+
+    padding-top: 1rem;   
+    padding-left: 1rem;   
+
+    color: #6a6e72;;
+}
+
+.down .ul1 {
+    justify-content: space-between;
+}
+
+.down ul div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+   
+}
